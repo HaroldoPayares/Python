@@ -11,7 +11,7 @@ if option == 'yes':
     with open(filename,'r') as file_to_check:
 
         file_to_check.seek(0)
-        print("\n",file_to_check.read())
+        print(file_to_check.read())
 
         print("\nNow clousing file...")
         time.sleep(3)
