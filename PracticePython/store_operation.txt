@@ -1,1 +1,2 @@
-The number 5 plus 4 equals 9The number 345 plus 456 equals -111
+The number 123 plus 543 equals 666
+The number 345 plus 876 equals 1221
