@@ -24,9 +24,10 @@ if option == 'addition':
     target_file = open(filename, 'a+')
     
     print("Saving the results...")
-    target_file.write(text_to_store)
-    time.sleep(5)
+    target_file.write(text_to_store + '\n')
+    time.sleep(3)
     target_file.close()
+    print("Data saved!")
 
 elif option == 'substraction':
     
