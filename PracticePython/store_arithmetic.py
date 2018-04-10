@@ -25,9 +25,11 @@ if option == 'addition':
     
     print("Saving the results...")
     target_file.write(text_to_store + '\n')
-    time.sleep(3)
     target_file.close()
+
+    time.sleep(3)
     print("Data saved!")
+    exit(0)
 
 elif option == 'substraction':
     
@@ -47,9 +49,11 @@ elif option == 'substraction':
     
     print("Saving the results...")
     target_file.write(text_to_store)
-    time.sleep(5)
     target_file.close()
+
+    time.sleep(3)
     print("Data saved")
+    exit(0)
 
 else:
     print("You should type 'addition' or 'substraction")
