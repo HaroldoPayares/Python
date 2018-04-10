@@ -14,6 +14,7 @@ if option == 'yes':
         print(file_to_check.read())
 
         print("\nNow clousing file...")
+        file_to_check.close()
         time.sleep(3)
         print("File closed")
 
