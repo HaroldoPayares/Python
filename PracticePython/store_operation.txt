@@ -1,2 +1,0 @@
-The number 123 plus 543 equals 666
-The number 345 plus 876 equals 1221
