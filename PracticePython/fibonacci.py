@@ -8,7 +8,7 @@ def fibonacci(n):
 
 def main():
 
-    print("How many numbers of the fibonacci series do you want to print?: ", end=' ')
+    print("Please type the position number of the fibonacci series you want to check: ", end=' ')
     answer = int(input())
 
     print(fibonacci(answer))
