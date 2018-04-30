@@ -36,8 +36,8 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 # add 1 to the current line position then pass the arguments to the "print_line" function to print on screen the current line
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
