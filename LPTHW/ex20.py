@@ -8,7 +8,7 @@ script, input_file = argv
 def print_all(f):
     print(f.read())
 
-# designated function to take the file pointer to the first line
+# designated function to take the file pointer to the first byte
 def rewind(f):
     f.seek(0)
 
